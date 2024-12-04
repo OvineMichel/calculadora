@@ -1,0 +1,118 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+*{
+   font-family: "DotGothic16"; 
+}
+
+body{
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+}
+#calculadora{
+    width: 320px;
+    height: 76vh;
+    background-color: rgb(209, 209, 209);
+    padding: 30px;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#resultados-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#resultados-div > input{
+    width: 350px;
+    height: 50px;
+    text-align: end;
+    color: rgb(28, 189, 36);
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(29, 109, 33);
+}
+
+#op{
+    font-size: 30px;
+}
+
+#r{
+    font-size: 40px;
+}
+
+#numeros{
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    background-color: rgb(224, 224, 224);
+}
+
+
+.b-op, #limpar, #calcular, #memoriaG, #memoriaR{
+    font-size: 40px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px black; ;
+    color: white;
+    background-color: rgb(102, 102, 102);
+}
+
+.num{
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#memoria-box{
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#memoria-box-filho{
+    height: 90px;
+    font-size: 50px;
+    width: 90px;
+    text-align: center;
+    color: rgb(28, 189, 36);
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(29, 109, 33);
+}
